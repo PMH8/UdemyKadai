@@ -1,0 +1,103 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.container {
+    max-width: 1366px;
+    max-height: 768px;
+    min-height: 500px;
+    min-width: 900px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.right {
+    position: relative;
+}
+
+
+.left {
+    width: 627px;
+    background-color: #F6F6F6;
+    padding: 100px;
+}
+
+.right {
+    width: 768px;
+}
+
+.logoSignIn {
+    display: flex;
+    width: 240px;
+    height: 60px;
+}
+
+.logoSignIn p {
+    margin-left: 15px;
+    line-height: 60px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #393939;
+}
+
+.loginTitle {
+    margin-top: 50px;
+}
+
+.signIntoText {
+    font-size: 62px;
+    font-weight: 700;
+    color: #393939;
+}
+
+.yourAccountText {
+    font-size: 32px;
+    font-weight: 700;
+    color: #393939;
+}
+
+.wrapInputBox input {
+    padding: 10px 10px 10px 50px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.wrapInputBox input:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all 0.3s linear;
+}
+
+.wrapInputBox i {
+    position: absolute;
+    padding: 14px 14px 14px 20px;
+    color: #393939;
+}
+
+.wrapInputBox {
+    margin-top: 40px;
+}
+
+.rememberMeCheckBox {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.rememberMeCheckBox label {
+    margin-left: 1rem;
+    color: #393939;
+}
+
+.singInButton {
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    background: #F35D5D;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
